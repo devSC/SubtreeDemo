@@ -14,4 +14,8 @@
     NSLog(@"hello");
 }
 
++ (void)helloSubtree {
+    NSLog(@"hello, it's a develop demo for test subtree");
+}
+
 @end

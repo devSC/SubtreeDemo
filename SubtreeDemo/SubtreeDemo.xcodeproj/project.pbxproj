@@ -20,6 +20,7 @@
 		C81E55BC1E714EC300539C77 /* StaticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55B81E714EC300539C77 /* StaticViewController.m */; };
 		C81E55C31E7158E500539C77 /* SubtreeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55C21E7158E500539C77 /* SubtreeColor.m */; };
 		C81E55C61E715BB700539C77 /* SubtreeSubColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55C51E715BB700539C77 /* SubtreeSubColor.m */; };
+		C81E55C91E715ED600539C77 /* StaticColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55C81E715ED600539C77 /* StaticColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		C81E55C21E7158E500539C77 /* SubtreeColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtreeColor.m; sourceTree = "<group>"; };
 		C81E55C41E715BB700539C77 /* SubtreeSubColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtreeSubColor.h; sourceTree = "<group>"; };
 		C81E55C51E715BB700539C77 /* SubtreeSubColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtreeSubColor.m; sourceTree = "<group>"; };
+		C81E55C71E715ED600539C77 /* StaticColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticColor.h; sourceTree = "<group>"; };
+		C81E55C81E715ED600539C77 /* StaticColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticColor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,8 @@
 				C81E55B61E714EC300539C77 /* StaticLibrary.m */,
 				C81E55B71E714EC300539C77 /* StaticViewController.h */,
 				C81E55B81E714EC300539C77 /* StaticViewController.m */,
+				C81E55C71E715ED600539C77 /* StaticColor.h */,
+				C81E55C81E715ED600539C77 /* StaticColor.m */,
 			);
 			path = StaticLibrary;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 				C81E55951E714C5400539C77 /* ViewController.m in Sources */,
 				C81E55BB1E714EC300539C77 /* StaticLibrary.m in Sources */,
 				C81E55921E714C5400539C77 /* AppDelegate.m in Sources */,
+				C81E55C91E715ED600539C77 /* StaticColor.m in Sources */,
 				C81E55C31E7158E500539C77 /* SubtreeColor.m in Sources */,
 				C81E55BA1E714EC300539C77 /* README.md in Sources */,
 				C81E558F1E714C5400539C77 /* main.m in Sources */,

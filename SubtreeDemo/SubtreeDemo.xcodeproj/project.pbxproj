@@ -19,6 +19,7 @@
 		C81E55BB1E714EC300539C77 /* StaticLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55B61E714EC300539C77 /* StaticLibrary.m */; };
 		C81E55BC1E714EC300539C77 /* StaticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55B81E714EC300539C77 /* StaticViewController.m */; };
 		C81E55C31E7158E500539C77 /* SubtreeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55C21E7158E500539C77 /* SubtreeColor.m */; };
+		C81E55C61E715BB700539C77 /* SubtreeSubColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55C51E715BB700539C77 /* SubtreeSubColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C81E55B81E714EC300539C77 /* StaticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticViewController.m; sourceTree = "<group>"; };
 		C81E55C11E7158E500539C77 /* SubtreeColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtreeColor.h; sourceTree = "<group>"; };
 		C81E55C21E7158E500539C77 /* SubtreeColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtreeColor.m; sourceTree = "<group>"; };
+		C81E55C41E715BB700539C77 /* SubtreeSubColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtreeSubColor.h; sourceTree = "<group>"; };
+		C81E55C51E715BB700539C77 /* SubtreeSubColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtreeSubColor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 			children = (
 				C81E55C11E7158E500539C77 /* SubtreeColor.h */,
 				C81E55C21E7158E500539C77 /* SubtreeColor.m */,
+				C81E55C41E715BB700539C77 /* SubtreeSubColor.h */,
+				C81E55C51E715BB700539C77 /* SubtreeSubColor.m */,
 			);
 			path = SubtreeColor;
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 				C81E55C31E7158E500539C77 /* SubtreeColor.m in Sources */,
 				C81E55BA1E714EC300539C77 /* README.md in Sources */,
 				C81E558F1E714C5400539C77 /* main.m in Sources */,
+				C81E55C61E715BB700539C77 /* SubtreeSubColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +464,7 @@
 				C81E55AE1E714C5400539C77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C81E55AF1E714C5400539C77 /* Build configuration list for PBXNativeTarget "SubtreeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +473,7 @@
 				C81E55B11E714C5400539C77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

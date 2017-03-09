@@ -12,4 +12,6 @@
 
 + (UIColor *)subRedColor;
 
++ (UIColor *)subYellowColor;
+
 @end

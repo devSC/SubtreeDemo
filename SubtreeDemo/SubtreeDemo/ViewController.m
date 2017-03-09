@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "StaticViewController.h"
+#import "StaticLibrary.h"
 
 @interface ViewController ()
 
@@ -17,6 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [StaticLibrary hello];
+    
+    
+    StaticViewController *vc = [[StaticViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

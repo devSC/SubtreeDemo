@@ -14,6 +14,10 @@
 		C81E559A1E714C5400539C77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C81E55991E714C5400539C77 /* Assets.xcassets */; };
 		C81E559D1E714C5400539C77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81E559B1E714C5400539C77 /* LaunchScreen.storyboard */; };
 		C81E55A81E714C5400539C77 /* SubtreeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55A71E714C5400539C77 /* SubtreeDemoTests.m */; };
+		C81E55B91E714EC300539C77 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C81E55B31E714EC300539C77 /* .gitignore */; };
+		C81E55BA1E714EC300539C77 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C81E55B41E714EC300539C77 /* README.md */; };
+		C81E55BB1E714EC300539C77 /* StaticLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55B61E714EC300539C77 /* StaticLibrary.m */; };
+		C81E55BC1E714EC300539C77 /* StaticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55B81E714EC300539C77 /* StaticViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,12 @@
 		C81E55A31E714C5400539C77 /* SubtreeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubtreeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81E55A71E714C5400539C77 /* SubtreeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubtreeDemoTests.m; sourceTree = "<group>"; };
 		C81E55A91E714C5400539C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C81E55B31E714EC300539C77 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		C81E55B41E714EC300539C77 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C81E55B51E714EC300539C77 /* StaticLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticLibrary.h; sourceTree = "<group>"; };
+		C81E55B61E714EC300539C77 /* StaticLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticLibrary.m; sourceTree = "<group>"; };
+		C81E55B71E714EC300539C77 /* StaticViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticViewController.h; sourceTree = "<group>"; };
+		C81E55B81E714EC300539C77 /* StaticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,7 @@
 		C81E558C1E714C5400539C77 /* SubtreeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C81E55B21E714EC300539C77 /* StaticLibrary */,
 				C81E55901E714C5400539C77 /* AppDelegate.h */,
 				C81E55911E714C5400539C77 /* AppDelegate.m */,
 				C81E55931E714C5400539C77 /* ViewController.h */,
@@ -109,6 +120,19 @@
 				C81E55A91E714C5400539C77 /* Info.plist */,
 			);
 			path = SubtreeDemoTests;
+			sourceTree = "<group>";
+		};
+		C81E55B21E714EC300539C77 /* StaticLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				C81E55B31E714EC300539C77 /* .gitignore */,
+				C81E55B41E714EC300539C77 /* README.md */,
+				C81E55B51E714EC300539C77 /* StaticLibrary.h */,
+				C81E55B61E714EC300539C77 /* StaticLibrary.m */,
+				C81E55B71E714EC300539C77 /* StaticViewController.h */,
+				C81E55B81E714EC300539C77 /* StaticViewController.m */,
+			);
+			path = StaticLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C81E55B91E714EC300539C77 /* .gitignore in Resources */,
 				C81E559D1E714C5400539C77 /* LaunchScreen.storyboard in Resources */,
 				C81E559A1E714C5400539C77 /* Assets.xcassets in Resources */,
 				C81E55981E714C5400539C77 /* Main.storyboard in Resources */,
@@ -215,8 +240,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C81E55BC1E714EC300539C77 /* StaticViewController.m in Sources */,
 				C81E55951E714C5400539C77 /* ViewController.m in Sources */,
+				C81E55BB1E714EC300539C77 /* StaticLibrary.m in Sources */,
 				C81E55921E714C5400539C77 /* AppDelegate.m in Sources */,
+				C81E55BA1E714EC300539C77 /* README.md in Sources */,
 				C81E558F1E714C5400539C77 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

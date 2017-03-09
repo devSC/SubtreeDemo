@@ -23,6 +23,7 @@
     [StaticLibrary helloSubtree];
     [StaticLibrary didYouKnowSubtree];
     [StaticLibrary didYouCanUseSubtree];
+    [StaticLibrary newUserForProject];
     
     StaticViewController *vc = [[StaticViewController alloc] init];
     vc.view.backgroundColor = [SubtreeColor subRedColor];

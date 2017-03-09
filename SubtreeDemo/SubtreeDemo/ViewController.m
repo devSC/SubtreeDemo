@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "StaticViewController.h"
 #import "StaticLibrary.h"
-
+#import "SubtreeColor.h"
 @interface ViewController ()
 
 @end
@@ -25,6 +25,7 @@
     [StaticLibrary didYouCanUseSubtree];
     
     StaticViewController *vc = [[StaticViewController alloc] init];
+    vc.view.backgroundColor = [SubtreeColor subRedColor];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

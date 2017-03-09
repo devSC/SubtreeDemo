@@ -21,6 +21,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     [StaticLibrary hello];
     [StaticLibrary helloSubtree];
+    [StaticLibrary didYouKnowSubtree];
     
     StaticViewController *vc = [[StaticViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];

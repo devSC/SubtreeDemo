@@ -14,4 +14,8 @@
     return [[self redColor] colorWithAlphaComponent:0.6];
 }
 
++ (UIColor *)subYellowColor {
+    return [[self yellowColor] colorWithAlphaComponent:0.7];
+}
+
 @end

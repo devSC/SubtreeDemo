@@ -18,4 +18,8 @@
     NSLog(@"hello, it's a develop demo for test subtree");
 }
 
++ (void)didYouKnowSubtree {
+    NSLog(@"%s", __FUNCTION__);
+}
+
 @end

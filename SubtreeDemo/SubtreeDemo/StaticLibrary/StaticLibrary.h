@@ -18,4 +18,6 @@
 
 + (void)didYouCanUseSubtree;
 
++ (void)newUserForProject;
+
 @end

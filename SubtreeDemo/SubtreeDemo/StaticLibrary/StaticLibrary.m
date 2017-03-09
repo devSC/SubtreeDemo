@@ -26,4 +26,8 @@
     NSLog(@"%s", __FUNCTION__);
 }
 
++ (void)newUserForProject {
+    NSLog(@"%s", __FUNCTION__);
+}
+
 @end

@@ -18,6 +18,7 @@
 		C81E55BA1E714EC300539C77 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C81E55B41E714EC300539C77 /* README.md */; };
 		C81E55BB1E714EC300539C77 /* StaticLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55B61E714EC300539C77 /* StaticLibrary.m */; };
 		C81E55BC1E714EC300539C77 /* StaticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55B81E714EC300539C77 /* StaticViewController.m */; };
+		C81E55C31E7158E500539C77 /* SubtreeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55C21E7158E500539C77 /* SubtreeColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		C81E55B61E714EC300539C77 /* StaticLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticLibrary.m; sourceTree = "<group>"; };
 		C81E55B71E714EC300539C77 /* StaticViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticViewController.h; sourceTree = "<group>"; };
 		C81E55B81E714EC300539C77 /* StaticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticViewController.m; sourceTree = "<group>"; };
+		C81E55C11E7158E500539C77 /* SubtreeColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtreeColor.h; sourceTree = "<group>"; };
+		C81E55C21E7158E500539C77 /* SubtreeColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtreeColor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,7 @@
 		C81E558C1E714C5400539C77 /* SubtreeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C81E55C01E7158E500539C77 /* SubtreeColor */,
 				C81E55B21E714EC300539C77 /* StaticLibrary */,
 				C81E55901E714C5400539C77 /* AppDelegate.h */,
 				C81E55911E714C5400539C77 /* AppDelegate.m */,
@@ -133,6 +137,15 @@
 				C81E55B81E714EC300539C77 /* StaticViewController.m */,
 			);
 			path = StaticLibrary;
+			sourceTree = "<group>";
+		};
+		C81E55C01E7158E500539C77 /* SubtreeColor */ = {
+			isa = PBXGroup;
+			children = (
+				C81E55C11E7158E500539C77 /* SubtreeColor.h */,
+				C81E55C21E7158E500539C77 /* SubtreeColor.m */,
+			);
+			path = SubtreeColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +257,7 @@
 				C81E55951E714C5400539C77 /* ViewController.m in Sources */,
 				C81E55BB1E714EC300539C77 /* StaticLibrary.m in Sources */,
 				C81E55921E714C5400539C77 /* AppDelegate.m in Sources */,
+				C81E55C31E7158E500539C77 /* SubtreeColor.m in Sources */,
 				C81E55BA1E714EC300539C77 /* README.md in Sources */,
 				C81E558F1E714C5400539C77 /* main.m in Sources */,
 			);

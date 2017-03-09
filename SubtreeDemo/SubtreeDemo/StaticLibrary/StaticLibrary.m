@@ -22,4 +22,8 @@
     NSLog(@"%s", __FUNCTION__);
 }
 
++ (void)didYouCanUseSubtree {
+    NSLog(@"%s", __FUNCTION__);
+}
+
 @end

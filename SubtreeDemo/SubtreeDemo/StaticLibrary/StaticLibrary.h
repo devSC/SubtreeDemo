@@ -16,5 +16,6 @@
 
 + (void)didYouKnowSubtree;
 
++ (void)didYouCanUseSubtree;
 
 @end

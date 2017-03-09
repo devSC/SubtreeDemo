@@ -22,6 +22,7 @@
     [StaticLibrary hello];
     [StaticLibrary helloSubtree];
     [StaticLibrary didYouKnowSubtree];
+    [StaticLibrary didYouCanUseSubtree];
     
     StaticViewController *vc = [[StaticViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];

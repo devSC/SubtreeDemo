@@ -12,6 +12,7 @@
 #import "StaticColor.h"
 
 #import "SubtreeColor.h"
+#import "SubtreeHello.h"
 
 @interface ViewController ()
 
@@ -28,6 +29,8 @@
     [StaticLibrary didYouCanUseSubtree];
     [StaticLibrary newUserForProject];
     [StaticColor hello];
+    
+    [SubtreeHello hello];
     
     StaticViewController *vc = [[StaticViewController alloc] init];
     vc.view.backgroundColor = [SubtreeColor subRedColor];

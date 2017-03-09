@@ -11,11 +11,11 @@
 @implementation StaticLibrary
 
 + (void)hello {
-    NSLog(@"hello");
+    NSLog(@"%s", __FUNCTION__);
 }
 
 + (void)helloSubtree {
-    NSLog(@"hello, it's a develop demo for test subtree");
+    NSLog(@"%s", __FUNCTION__);
 }
 
 + (void)didYouKnowSubtree {

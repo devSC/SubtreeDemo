@@ -22,6 +22,7 @@
 		C81E55C61E715BB700539C77 /* SubtreeSubColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55C51E715BB700539C77 /* SubtreeSubColor.m */; };
 		C81E55C91E715ED600539C77 /* StaticColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55C81E715ED600539C77 /* StaticColor.m */; };
 		C81E55CC1E71630400539C77 /* SubtreeHello.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55CB1E71630400539C77 /* SubtreeHello.m */; };
+		C8CDD6292004E58800FC93E0 /* SubtreeColor2.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CDD6282004E58800FC93E0 /* SubtreeColor2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		C81E55C81E715ED600539C77 /* StaticColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticColor.m; sourceTree = "<group>"; };
 		C81E55CA1E71630400539C77 /* SubtreeHello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtreeHello.h; sourceTree = "<group>"; };
 		C81E55CB1E71630400539C77 /* SubtreeHello.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtreeHello.m; sourceTree = "<group>"; };
+		C8CDD6272004E58800FC93E0 /* SubtreeColor2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubtreeColor2.h; sourceTree = "<group>"; };
+		C8CDD6282004E58800FC93E0 /* SubtreeColor2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubtreeColor2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +162,8 @@
 				C81E55C51E715BB700539C77 /* SubtreeSubColor.m */,
 				C81E55CA1E71630400539C77 /* SubtreeHello.h */,
 				C81E55CB1E71630400539C77 /* SubtreeHello.m */,
+				C8CDD6272004E58800FC93E0 /* SubtreeColor2.h */,
+				C8CDD6282004E58800FC93E0 /* SubtreeColor2.m */,
 			);
 			path = SubtreeColor;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 				C81E55BA1E714EC300539C77 /* README.md in Sources */,
 				C81E558F1E714C5400539C77 /* main.m in Sources */,
 				C81E55C61E715BB700539C77 /* SubtreeSubColor.m in Sources */,
+				C8CDD6292004E58800FC93E0 /* SubtreeColor2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
